@@ -1,4 +1,4 @@
-define ["marionette"], (Marionette) ->
+@IA = do (Marionette) ->
 	
 	App = new Marionette.Application		
 	

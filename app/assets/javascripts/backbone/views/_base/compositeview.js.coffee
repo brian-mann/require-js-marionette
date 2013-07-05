@@ -1,6 +1,6 @@
-require ["app", "marionette"], (App, Marionette) ->
+do (Marionette) ->
 
-	App.module "Views", (Views) ->
+	@IA.module "Views", (Views) ->
 		
 		class Views.CompositeView extends Marionette.CompositeView
 			itemViewEventPrefix: "childview"

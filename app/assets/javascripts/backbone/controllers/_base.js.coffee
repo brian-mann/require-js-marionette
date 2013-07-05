@@ -1,6 +1,6 @@
-require ["app", "marionette"], (App, Marionette) ->
+do (Marionette) ->
 
-	App.module "Controllers", (Controllers) ->
+	@IA.module "Controllers", (Controllers) ->
 
 		class Controllers.Base extends Marionette.Controller
 

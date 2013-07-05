@@ -42,7 +42,13 @@ gem "rabl"
 gem "oj"
 gem "gon"
 gem "js-routes"
-gem 'requirejs-rails'
+gem "requirejs-rails"
+gem "headjs-rails"
+gem "jquery-ui-rails"
+
+group :development do
+	gem 'rails-dev-tweaks'
+end
 
 group :assets do
   gem "eco"

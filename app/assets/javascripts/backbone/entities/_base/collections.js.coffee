@@ -1,5 +1,5 @@
-require ["app", "backbone"], (App, Backbone) ->
+do (Backbone) ->
+
+	@IA.module "Entities", (Entities) ->
 	
-	App.module "Entities", (Entities) ->
-		
 		class Entities.Collection extends Backbone.Collection

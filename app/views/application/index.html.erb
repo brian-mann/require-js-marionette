@@ -1,4 +1,23 @@
 <div id="header-region"></div>
 <div id="main-region"></div>
 
+<%= headjs_include_tag(
+	"jquery.min", 
+	"underscore",
+	"backbone",
+	"marionette",
+	"js-routes",
+	"kendo",
+	"jquery-ui",
+	# "manifests/plugins",
+	"manifests/common",
+	"manifests/routers")
+%>
 
+<%= javascript_tag do %>
+	
+	head.ready(function(){
+		IA.start();
+	});
+	
+<% end %>

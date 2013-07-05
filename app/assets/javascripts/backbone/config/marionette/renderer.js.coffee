@@ -1,4 +1,4 @@
-require ["app", "marionette"], (App, Marionette) ->
+do (Marionette) ->
 
 	_.extend Marionette.Renderer,
 
