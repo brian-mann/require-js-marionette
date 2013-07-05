@@ -1,0 +1,9 @@
+//= require_tree ../backbone/config
+//= require_tree ../backbone/controllers
+//= require_tree ../backbone/entities/_base
+//= require ../backbone/views/_base/_view
+//= require ../backbone/views/_base/itemview
+//= require ../backbone/views/_base/layout
+//= require ../backbone/views/_base/collectionview
+//= require ../backbone/views/_base/compositeview
+//= require_tree ../backbone/components

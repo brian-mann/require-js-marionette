@@ -1,0 +1,14 @@
+//= require kendo/kendo.core
+//= require kendo/kendo.data
+//= require kendo/kendo.userevents
+//= require kendo/kendo.fx
+//= require kendo/kendo.popup
+//= require kendo/kendo.list
+//= require kendo/kendo.dropdownlist
+//= require kendo/kendo.numerictextbox
+//= require kendo/kendo.calendar
+//= require kendo/kendo.datepicker
+//= require kendo/kendo.timepicker
+//= require kendo/kendo.combobox
+//= require kendo/kendo.autocomplete
+//= require_tree ./kendo/cultures

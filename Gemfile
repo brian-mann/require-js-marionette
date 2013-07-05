@@ -42,6 +42,8 @@ gem "rabl"
 gem "oj"
 gem "gon"
 gem "js-routes"
+gem 'requirejs-rails'
+
 group :assets do
   gem "eco"
   gem "compass-rails"
